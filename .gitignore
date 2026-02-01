@@ -45,3 +45,16 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# --- SonicSplit AI Specific ---
+separated/
+*.zip
+*.mp3
+*.wav
+input_song.mp3
+.ngrok
+.env
+
+# Python specific
+__pycache__/
+.ipynb_checkpoints/
